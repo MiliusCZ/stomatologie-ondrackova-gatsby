@@ -41,16 +41,4 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export const query = graphql`
-  query {
-    fileName: file(relativePath: { eq: "images/myimage.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 400, maxHeight: 250) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;
-
 export default Layout;
