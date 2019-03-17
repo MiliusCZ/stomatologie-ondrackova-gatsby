@@ -1,14 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Footer from './Footer';
 import Header from './Header';
-import './layout.css';
+
+import './layout.scss';
 
 const Layout = ({ children }) => (
-  <React.Fragment>
+  <div className="main">
     <Header />
-    {children}
-  </React.Fragment>
+    <div className="content">{children}</div>
+    <Footer />
+  </div>
 );
 
 Layout.propTypes = {

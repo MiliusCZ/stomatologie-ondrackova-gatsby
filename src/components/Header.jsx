@@ -11,6 +11,20 @@ const Header = () => (
           <img src="/img/logo.png" />
         </Link>
       </div>
+      <nav className="topMenu">
+        <span>
+          <a href="#">Item 1</a>
+        </span>
+        <span>
+          <a href="#">Item 2</a>
+        </span>
+        <span>
+          <a href="#">Item 3</a>
+        </span>
+        <span>
+          <a href="#">Item 4</a>
+        </span>
+      </nav>
     </div>
   </header>
 );
