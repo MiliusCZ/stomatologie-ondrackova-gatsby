@@ -13,7 +13,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/configuration/site.json`,
-        name: 'config',
+        name: 'configuration',
       },
     },
     {

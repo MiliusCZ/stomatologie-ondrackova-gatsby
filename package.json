@@ -12,7 +12,6 @@
     "lint:fix": "eslint src --fix --ext .jsx --ext .js; eslint gatsby-node.js --fix"
   },
   "dependencies": {
-    "core-js": "^3.0.0",
     "gatsby": "^2.2.3",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-manifest": "^2.0.24",
