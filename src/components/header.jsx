@@ -1,9 +1,10 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './Header.scss';
 
-const Header = () => (
+export const Header = ({ image, title, navigation }) => (
   <header>
     <div className="header">
       <div>
@@ -12,21 +13,26 @@ const Header = () => (
         </Link>
       </div>
       <nav className="topMenu">
-        <span>
-          <a href="#">Item 1</a>
-        </span>
-        <span>
-          <a href="#">Item 2</a>
-        </span>
-        <span>
-          <a href="#">Item 3</a>
-        </span>
-        <span>
-          <a href="#">Item 4</a>
-        </span>
+        {navigation.map(item => (
+          <span key={item.key}>
+            <Link  activeClassName="active" to={item.path}>
+              {item.title}
+            </Link>
+          </span>
+        ))}
       </nav>
     </div>
+    <div>{title}</div>
+    <div>{image.src}</div>
   </header>
 );
 
 export default Header;
+
+Header.displayName = 'Header';
+
+Header.propTypes = {
+  image: PropTypes.object,
+  title: PropTypes.string,
+  navigation: PropTypes.array,
+};

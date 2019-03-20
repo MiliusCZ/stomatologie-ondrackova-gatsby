@@ -1,0 +1,10 @@
+{
+  "key": "gallery",
+  "title": "Galerie",
+  "path": "/galerie/",
+  "priority": 5,
+  "showInMenu": true,
+  "galleryImages": [
+    "/img/gallery-imgp3152.jpg"
+  ]
+}

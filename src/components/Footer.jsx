@@ -1,12 +1,18 @@
-import { Link } from 'gatsby';
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './Footer.scss';
 
-const Footer = () => (
+const Footer = ({ disclaimer }) => (
   <footer>
-    <div className="footer">this is footer</div>
+    <div className="footer">{disclaimer}</div>
   </footer>
 );
 
 export default Footer;
+
+Footer.displayName = 'Footer';
+
+Footer.propTypes = {
+  disclaimer: PropTypes.string
+};
