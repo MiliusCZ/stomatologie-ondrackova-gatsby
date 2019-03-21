@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 
 const ContactsPage = ({ data }) => (
-  <Layout fullSideBar={true}>
+  <Layout>
     <h1>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h1>
     <div
       dangerouslySetInnerHTML={{

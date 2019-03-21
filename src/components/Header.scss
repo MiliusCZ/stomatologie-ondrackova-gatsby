@@ -47,7 +47,15 @@ header {
   border-bottom: 1px dotted gray;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 800px) {
   .header {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding-top: 20px;
+
+    img {
+      height: 100px;
+    }
   }
 }

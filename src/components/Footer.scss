@@ -20,3 +20,21 @@ footer {
     display: inline-block;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+
+    div {
+      margin-bottom: 10px;
+    }
+
+    .phoneContainer {
+      text-align: left;
+    }
+
+    .phone {
+      margin-top: 0;
+    }
+  }
+}

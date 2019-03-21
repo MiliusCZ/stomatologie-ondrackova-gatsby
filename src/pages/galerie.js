@@ -10,7 +10,7 @@ const GalleryPage = ({ data }) => {
   const images = data.allImageSharp;
 
   return (
-    <Layout noSideBar={true}>
+    <Layout>
       <h1>{title}</h1>
       {images && <Gallery photos={images.edges.map(({ node }) => {
         return {
