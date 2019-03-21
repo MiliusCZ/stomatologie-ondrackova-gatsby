@@ -34,7 +34,11 @@ const stomatologieOndrackovaTheme = {
       'margin-bottom': rhythm(1/4),
     },
     'h3, h4': {
-      margin: 0
+      margin: 0,
+      'margin-bottom': rhythm(1/2),
+    },
+    'h4': {
+      'font-weight': 'bold'
     }
   })
 };

@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
+  margin: 5px 20px;
 
 
   img {
@@ -15,6 +15,7 @@
 
 .topMenu {
   height: 40px;
+  font-size: larger;
  
   span {
     height: 100%;
@@ -22,8 +23,12 @@
   }
 
   span:hover {
-    background-color: blue;
-    color: white;
+    background-color: #0087c0;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    
   }
 
   a {
@@ -31,6 +36,10 @@
     height: 100%;
     display: flex;
     align-items: center;
+  }
+
+  a.active {
+    font-weight: 700;
   }
 }
 
@@ -40,6 +49,5 @@ header {
 
 @media only screen and (max-width: 1280px) {
   .header {
-    padding-right: 10px;
   }
 }

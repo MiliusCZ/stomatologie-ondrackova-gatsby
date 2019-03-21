@@ -13,7 +13,7 @@ const getNavigationData = (contentPages, dataPages) => {
       title: item.node.title,
       key: item.node.key,
       path: item.node.path,
-      priority: item.node.priority
+      priority: item.node.priority,
     };
   });
 
@@ -22,7 +22,7 @@ const getNavigationData = (contentPages, dataPages) => {
       title: item.node.frontmatter.title,
       key: item.node.frontmatter.key,
       path: item.node.frontmatter.path,
-      priority: item.node.frontmatter.priority
+      priority: item.node.frontmatter.priority,
     };
   });
 
@@ -35,17 +35,15 @@ const getNavigationData = (contentPages, dataPages) => {
 const LayoutComponent = ({ data, children }) => (
   <div className="main">
     <Header
-      title={data.configurationJson.title}
+      // title={data.configurationJson.title}
       navigation={getNavigationData(
         data.allMarkdownRemark.edges,
         data.allContentJson.edges
       )}
-      image={data.file.childImageSharp.fluid}
+      // image={data.file.childImageSharp.fluid}
     />
-    <div className="content">
-      {children}
-    </div>
-    <Footer disclaimer={data.configurationJson.disclaimer} />
+    <div className="content">{children}</div>
+    <Footer siteInfo={data.configurationJson} />
   </div>
 );
 
@@ -53,7 +51,7 @@ LayoutComponent.displayName = 'LayoutComponent';
 
 LayoutComponent.propTypes = {
   data: PropTypes.object,
-  children: PropTypes.object
+  children: PropTypes.object,
 };
 
 const Layout = props => (

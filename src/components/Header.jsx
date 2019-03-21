@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import './Header.scss';
 
-export const Header = ({ image, title, navigation }) => (
+export const Header = ({ navigation }) => (
   <header>
     <div className="header">
       <div>
@@ -22,8 +22,6 @@ export const Header = ({ image, title, navigation }) => (
         ))}
       </nav>
     </div>
-    <div>{title}</div>
-    <div>{image.src}</div>
   </header>
 );
 
