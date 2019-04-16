@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  border-top: 1px dashed gray;
+  border-top: 1px dashed #eeeeee;
   min-height: 100px;
   white-space: pre-wrap;
 }
@@ -12,6 +12,10 @@ footer {
 
   .phoneContainer {
     text-align: center;
+  }
+
+  .addressContainer {
+    text-align: right;
   }
 
   .phone {
@@ -30,6 +34,10 @@ footer {
     }
 
     .phoneContainer {
+      text-align: left;
+    }
+
+    .addressContainer {
       text-align: left;
     }
 

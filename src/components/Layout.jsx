@@ -32,7 +32,7 @@ const getNavigationData = (contentPages, dataPages) => {
   return navigation;
 };
 
-const LayoutComponent = ({ data, children }) => (
+const LayoutComponent = ({ data, children, showTopImage }) => (
   <div className="main">
     <Header
       // title={data.configurationJson.title}
@@ -42,6 +42,7 @@ const LayoutComponent = ({ data, children }) => (
       )}
       // image={data.file.childImageSharp.fluid}
     />
+    {showTopImage && <img src="/img/topimage1.jpg" />}
     <div className="content">{children}</div>
     <Footer siteInfo={data.configurationJson} />
   </div>
@@ -52,6 +53,7 @@ LayoutComponent.displayName = 'LayoutComponent';
 LayoutComponent.propTypes = {
   data: PropTypes.object,
   children: PropTypes.object,
+  showTopImage: PropTypes.bool,
 };
 
 const Layout = props => (

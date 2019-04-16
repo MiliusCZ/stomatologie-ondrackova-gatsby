@@ -12,9 +12,9 @@ const Footer = ({ siteInfo }) => (
       </div>
       <div className="phoneContainer">
         <h4>Telefon</h4>
-        <span className="phone">{siteInfo.phone}</span>
+        <a className="phone" href={`tel:${siteInfo.phone}`}>{siteInfo.phone}</a>
       </div>
-      <div>
+      <div className="addressContainer">
         <h4>Adresa</h4>
         {siteInfo.address.name}<br />
         {siteInfo.address.street}<br />
