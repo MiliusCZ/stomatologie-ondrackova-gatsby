@@ -42,7 +42,8 @@ export const query = graphql`
         }
       }
       allImageSharp(
-          filter: {fluid:{originalName: {regex: "/gallery/"}}}
+          filter: {fluid:{originalName: {regex: "/gallery/"}}},
+          sort: { fields: fluid___originalName }
         ) {
           edges {
             node {

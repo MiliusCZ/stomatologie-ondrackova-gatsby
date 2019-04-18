@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 
 import { graphql } from 'gatsby';
 
+import './kontakty.scss';
+
 const ContactsPage = ({ data }) => (
   <Layout>
     <h1>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h1>

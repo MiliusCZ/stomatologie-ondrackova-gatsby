@@ -42,7 +42,7 @@ const LayoutComponent = ({ data, children, showTopImage }) => (
       )}
       // image={data.file.childImageSharp.fluid}
     />
-    {showTopImage && <img src="/img/topimage1.jpg" />}
+    {showTopImage && <div className="topImage"><img src="/img/topimage1.jpg" /></div>}
     <div className="content">{children}</div>
     <Footer siteInfo={data.configurationJson} />
   </div>
