@@ -6,7 +6,6 @@
   align-items: center;
   margin: 5px 20px;
 
-
   img {
     height: 80px;
     margin: 0;
@@ -16,7 +15,7 @@
 .topMenu {
   height: 40px;
   font-size: larger;
- 
+
   span {
     height: 100%;
     display: inline-block;
@@ -28,7 +27,6 @@
       color: white;
       text-decoration: none;
     }
-    
   }
 
   a {
@@ -56,6 +54,20 @@ header {
 
     img {
       height: 100px;
+    }
+  }
+
+  .topMenu {
+    height: auto;
+    span {
+      display: block;
+      width: 100%;
+      text-align: center;
+
+      a {
+        text-align: center;
+        display: block;
+      }
     }
   }
 }

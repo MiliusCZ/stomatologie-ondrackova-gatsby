@@ -31,7 +31,7 @@ const stomatologieOndrackovaTheme = {
       'margin-bottom': rhythm(1),
     },
     'h2': {
-      'margin-bottom': rhythm(1/4),
+      'margin-bottom': rhythm(1/2),
     },
     'h3, h4': {
       margin: 0,

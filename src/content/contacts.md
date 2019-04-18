@@ -13,3 +13,25 @@ showInMenu: true
 </div>
 
 TODO - popis cesty
+
+## Ordinační hodiny 
+
+Den|Dopoledne     |Odpoledne
+:-:|:-------------|:--------------
+Pondělí | 8:00 – 12:00 | 13:00 - 17:00
+Úterý | 7:00 – 13:00 | 
+Středa | 8:00 – 12:00 | 13:00 - 16:00
+Čtvrtek | 7:30 – 12:00 | 13:00 - 14:00
+Pátek | 7:30 – 13:00 |
+
+Mimo naše ordinační hodiny Vám první pomoc zajistí:
+
+- Městská poliklinika Praha 1, Spálená 12, tel.: 222 924 295, 222 924 268 PO - ČT 19 - 6, SO, NE, svátky nepřetržitě.
+- [www.lekarskapohotovost.cz](http://www.lekarskapohotovost.cz)
+- [www.prahamp.cz](http://www.prahamp.cz)
+
+## Spolupracující lékaři:
+- MUDr. Václav Dušek - stomatochirurgie - Poliklinika Mazurská 484, Praha 8
+- Ordinace manželů Šafaříkových - stomatochirurgie - Uruguayská 3, Praha 2 ([www.ordinacesafarikovi.cz](http://www.ordinacesafarikovi.cz))
+- Stomatologická klinika VFN Praha - U nemocnice 2, Praha 2
+  

@@ -11,27 +11,27 @@ body {
 }
 
 body {
-  background: #98c6d9; /* Old browsers */
+  background: #c0d7e2; /* Old browsers */
   background: -moz-linear-gradient(
     -45deg,
-    #98c6d9 0%,
-    #c4d4db 100%
+    #c0d7e2 0%,
+    #d3dee3 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     -45deg,
-    #98c6d9 0%,
-    #c4d4db 100%
+    #c0d7e2 0%,
+    #d3dee3 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     135deg,
-    #98c6d9 0%,
-    #c4d4db 100%
+    #c0d7e2 0%,
+    #d3dee3 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .main {
   width: 1280px;
-  min-height: 100%;
+  min-height: 100vh;
   background-color: white;
   bottom: 0;
   margin: 0 auto;
