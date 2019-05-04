@@ -1,8 +1,9 @@
 footer {
-  width: 70%;
+  width: 1024px;
   min-height: 100px;
   white-space: pre-wrap;
   margin: auto;
+  margin-top: 50px;
 }
 
 .footer {
@@ -16,7 +17,13 @@ footer {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
+  .footer {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 896px) {
   .footer {
     flex-direction: column;
 
