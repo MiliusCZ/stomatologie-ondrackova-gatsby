@@ -24,6 +24,13 @@ Středa | 8:00 – 12:00 | 13:00 - 16:00
 Čtvrtek | 7:30 – 12:00 | 13:00 - 14:00
 Pátek | 7:30 – 13:00 |
 
+## Ordinační hodiny - dentální hygiena
+
+Den|Dopoledne     |Odpoledne
+:-:|:-------------|:--------------
+Čtvrtek | 7:30 – 11:30 | 12:30 - 14:30
+Pátek | 7:30 – 13:00 |
+
 Mimo naše ordinační hodiny Vám první pomoc zajistí:
 
 - Městská poliklinika Praha 1, Spálená 12, tel.: 222 924 295, 222 924 268 PO - ČT 19 - 6, SO, NE, svátky nepřetržitě.
