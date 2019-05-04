@@ -26,26 +26,32 @@ const getNavigationData = (contentPages, dataPages) => {
     };
   });
 
-  const navigation = contentNavigation.concat(dataNavigation);
-  navigation.sort((a, b) => a.priority > b.priority);
+  let navigation = contentNavigation.concat(dataNavigation);
+  navigation.sort((a, b) => a.priority - b.priority);
 
   return navigation;
 };
 
 const LayoutComponent = ({ data, children, showTopImage }) => (
-  <div className="main">
-    <Header
-      // title={data.configurationJson.title}
-      navigation={getNavigationData(
-        data.allMarkdownRemark.edges,
-        data.allContentJson.edges
+  <>
+    <div className="main">
+      <Header
+        // title={data.configurationJson.title}
+        navigation={getNavigationData(
+          data.allMarkdownRemark.edges,
+          data.allContentJson.edges
+        )}
+        // image={data.file.childImageSharp.fluid}
+      />
+      {showTopImage && (
+        <div className="topImage">
+          <img src="/img/topimage1.jpg" />
+        </div>
       )}
-      // image={data.file.childImageSharp.fluid}
-    />
-    {showTopImage && <div className="topImage"><img src="/img/topimage1.jpg" /></div>}
-    <div className="content">{children}</div>
+      <div className="content">{children}</div>
+    </div>
     <Footer siteInfo={data.configurationJson} />
-  </div>
+  </>
 );
 
 LayoutComponent.displayName = 'LayoutComponent';
@@ -74,6 +80,7 @@ const Layout = props => (
           phone
           email
           openingHours
+          openingHours2
         }
         allContentJson(filter: { showInMenu: { eq: true } }) {
           edges {

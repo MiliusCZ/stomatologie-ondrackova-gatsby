@@ -3,7 +3,7 @@ key: pricelist
 title: Ceník
 showInMenu: true
 path: "/cenik/"
-priority: 7
+priority: 3
 ---
 Cena za ošetření se nedá stanovit jednoduše a paušálně, proto je cena vždy individuálně kalkulována v rámci tvorby léčebného plánu. Pacient je s cenou za vyšetření a ošetření dopředu seznámen. Společně probereme možnosti ošetření a vybereme variantu, která je pro Vás v dané chvíli ideální. Proto se neváhejte na cokoliv zeptat. Podrobný ceník je na vyžádání v ordinaci.
 

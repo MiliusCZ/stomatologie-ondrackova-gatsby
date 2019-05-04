@@ -1,8 +1,8 @@
 footer {
-  width: 100%;
-  border-top: 1px dashed #eeeeee;
+  width: 70%;
   min-height: 100px;
   white-space: pre-wrap;
+  margin: auto;
 }
 
 .footer {
@@ -10,18 +10,9 @@ footer {
   justify-content: space-between;
   margin: 20px;
 
-  .phoneContainer {
-    text-align: center;
-  }
-
-  .addressContainer {
-    text-align: right;
-  }
-
   .phone {
-    font-size: large;
-    margin-top: 20px;
-    display: inline-block;
+    color: darken(#54bad0, 20%);
+    font-weight: bolder;
   }
 }
 
@@ -31,18 +22,6 @@ footer {
 
     div {
       margin-bottom: 10px;
-    }
-
-    .phoneContainer {
-      text-align: left;
-    }
-
-    .addressContainer {
-      text-align: left;
-    }
-
-    .phone {
-      margin-top: 0;
     }
   }
 }

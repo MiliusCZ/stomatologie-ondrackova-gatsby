@@ -7,14 +7,18 @@ const Footer = ({ siteInfo }) => (
   <footer>
     <div className="footer">
       <div>
-        <h4>Ordinační hodiny</h4>
+        <h4>Ordinační hodiny - ordinace</h4>
         <div dangerouslySetInnerHTML={{ __html: siteInfo.openingHours}} />
       </div>
-      <div className="phoneContainer">
-        <h4>Telefon</h4>
-        <a className="phone" href={`tel:${siteInfo.phone}`}>{siteInfo.phone}</a>
+      <div>
+        <h4>Ordinační hodiny - dentální hygiena</h4>
+        <div dangerouslySetInnerHTML={{ __html: siteInfo.openingHours2}} />
       </div>
-      <div className="addressContainer">
+      <div>
+        <h4>Kontakty</h4>
+        Telefon <a className="phone" href={`tel:${siteInfo.phone}`}>{siteInfo.phone}</a>
+      </div>
+      <div>
         <h4>Adresa</h4>
         {siteInfo.address.name}<br />
         {siteInfo.address.street}<br />
