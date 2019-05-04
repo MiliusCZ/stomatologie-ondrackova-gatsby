@@ -1,14 +1,27 @@
 module.exports = {
   siteMetadata: {
     title: 'Stomatologie Michaela Ondráčková',
-    siteUrl: 'TODO',
-    description: 'TODO',
-    author: 'Miloš Turek'
+    siteUrl: 'https://stomatologie-ondrackova.cz/',
+    description: 'Stomatologie Michaela Ondráčková',
+    author: 'Miloš Turek',
   },
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+              rel: 'nofollow',
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
