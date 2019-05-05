@@ -1,0 +1,24 @@
+{
+  "key": "teamMembers",
+  "title": "Tým",
+  "priority": 4,
+  "path": "/tym/",
+  "showInMenu": true,
+  "teamMembers": [
+    {
+      "name": "MUDr. Michaela Ondráčková",
+      "photo": "/img/isa.jpg",
+      "specialization": "zubní lékařka"
+    },
+    {
+      "name": "DiS. Jana Vondrášková",
+      "photo": "/img/jana.jpg",
+      "specialization": "dentální hygienistka"
+    },
+    {
+      "name": "Tereza Zahrádková",
+      "photo": "/img/tereza.jpg",
+      "specialization": "zdravotní sestra"
+    }
+  ]
+}

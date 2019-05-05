@@ -1,0 +1,73 @@
+.header {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 20px;
+
+  img {
+    height: 80px;
+    margin: 0;
+  }
+}
+
+.topMenu {
+  height: 40px;
+  font-size: larger;
+
+  span {
+    height: 100%;
+    display: inline-block;
+  }
+
+  span:hover {
+    background-color: #0087c0;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  a {
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  a.active {
+    font-weight: 700;
+  }
+}
+
+header {
+  border-bottom: 1px dashed #eeeeee;
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding-top: 20px;
+
+    img {
+      height: 100px;
+    }
+  }
+
+  .topMenu {
+    height: auto;
+    span {
+      display: block;
+      width: 100%;
+      text-align: center;
+
+      a {
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+}

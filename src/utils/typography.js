@@ -1,11 +1,19 @@
 import Typography from 'typography';
 
-const ordinaceSafarikoviTheme = {
-  title: 'Ordinace Safarikovi',
+const stomatologieOndrackovaTheme = {
+  title: 'Stomatologie Onrackova',
   baseFontSize: '14px',
   baseLineHeight: 1.61,
-  headerFontFamily: ['Segoe UI', 'Verdana', 'sans-serif'],
-  bodyFontFamily: ['Segoe UI', 'Verdana', 'sans-serif'],
+  googleFonts: [
+    {
+      name: 'PT Sans',
+      styles: [
+        '400',
+      ],
+    },
+  ],
+  headerFontFamily: ['PT Sans', 'Verdana', 'sans-serif'],
+  bodyFontFamily: ['PT Sans', 'Verdana', 'sans-serif'],
   bodyWeight: 400,
   headerWeight: 400,
   boldWeight: 700,
@@ -23,15 +31,19 @@ const ordinaceSafarikoviTheme = {
       'margin-bottom': rhythm(1),
     },
     'h2': {
-      'margin-bottom': rhythm(1/4),
+      'margin-bottom': rhythm(1/2),
     },
     'h3, h4': {
-      margin: 0
+      margin: 0,
+      'margin-bottom': rhythm(1/2),
+    },
+    'h4': {
+      'font-weight': 'bold'
     }
   })
 };
 
-const typography = new Typography(ordinaceSafarikoviTheme);
+const typography = new Typography(stomatologieOndrackovaTheme);
 
 
 export default typography;

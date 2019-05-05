@@ -1,16 +1,41 @@
 import React from 'react';
+import Layout from '../components/Layout';
+import PropTypes from 'prop-types';
 
-import Image from '../components/Image';
+import { graphql } from 'gatsby';
 
 import './index.scss';
 
-//import Layout from '../components/layout';
-// import SEO from '../components/seo';
-
-const IndexPage = () => (
-  <div className="main">
-    <div className="logoPlaceholder"><Image /></div>
-  </div>
+const IndexPage = ({ data }) => (
+  <Layout showTopImage={true}>
+    <div
+      dangerouslySetInnerHTML={{
+        __html: data.allMarkdownRemark.edges[0].node.html,
+      }}
+    />
+  </Layout>
 );
 
 export default IndexPage;
+
+export const query = graphql`
+  query AboutUsQuery {
+    allMarkdownRemark(filter: { frontmatter: { key: { eq: "about-us" } } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            key
+          }
+          html
+        }
+      }
+    }
+  }
+`;
+
+IndexPage.displayName = 'IndexPage';
+
+IndexPage.propTypes = {
+  data: PropTypes.object,
+};
