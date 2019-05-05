@@ -30,7 +30,7 @@ fotokompositní onlay                                                           
 korunka (dle materiálu)                                                                             | od 3650,- do 6860,-
 provizorní ochranná korunka zhotovená v ordinaci                                                    | 400,-
 snímatelné náhrady (dle rozsahu defektu a materiálu)                                                | od 3785,- do 9000,-
-dentální hygiena vstupní                                                                            | 1200,-
+dentální hygiena                                                                                    | 1200,-
 dentální hygiena recall (opakovaná)                                                                 | 1000,-
 dentální hygiena děti                                                                               | 600,-
 
