@@ -16,7 +16,8 @@ const Footer = ({ siteInfo }) => (
       </div>
       <div>
         <h4>Kontakty</h4>
-        Telefon <a className="phone" href={`tel:${siteInfo.phone}`}>{siteInfo.phone}</a>
+        <span className="label">Telefon</span> <a className="phone" href={`tel:${siteInfo.phone}`}>{siteInfo.phone}</a> <br />
+        <span className="label">E-mail</span> <a className="phone" href={`mailto:${siteInfo.email}`}>{siteInfo.email}</a> <br />
       </div>
       <div>
         <h4>Adresa</h4>

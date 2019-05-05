@@ -15,6 +15,11 @@ footer {
     color: darken(#54bad0, 20%);
     font-weight: bolder;
   }
+
+  .label {
+    display: inline-block;
+    min-width: 50px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
