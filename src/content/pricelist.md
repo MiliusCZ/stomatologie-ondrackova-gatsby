@@ -23,9 +23,9 @@ skloionomerní  (bílá dlouhodoběprovizorní) výplň                         
 dlahování zubů (dle počtu zubů)                                                                     | od 1760,-
 endodontické ošetření kořenových kanálků - jednokořenový zub                                        | 1600,-
 endodontické ošetření kořenových kanálků - vícekořenový zub                                         | 1230,- za kanálek
-kofferdam (latexová blána k izolaci ošetřovaného zubu)                                              | 100,-
+kofferdam (latexová blána k izolaci ošetřovaného zubu)                                              | 120,-
 vnitřní bělení jednoho zubu                                                                         | od 450,-
-vnější bělení (domácí) obě čelisti                                                                  | 5620,-
+vnější bělení (domácí) obě čelisti                                                                  | 6100,-
 fotokompositní onlay                                                                                | 3800,-
 korunka (dle materiálu)                                                                             | od 3650,- do 6860,-
 provizorní ochranná korunka zhotovená v ordinaci                                                    | 400,-
