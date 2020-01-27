@@ -8,17 +8,20 @@
     {
       "name": "MUDr. Michaela Ondráčková",
       "photo": "/img/isa.jpg",
-      "specialization": "zubní lékařka"
+      "specialization": "zubní lékařka",
+      "bio": "zubni lekarka"
     },
     {
-      "name": "Tereza Sisáková, DiS",
+      "name": "Tereza Sisáková, DiS.",
       "photo": "/img/tereza-dh.jpg",
-      "specialization": "dentální hygienistka"
+      "specialization": "dentální hygienistka",
+      "bio": " dentalni hygiena"
     },
     {
       "name": "Tereza Zahrádková",
       "photo": "/img/tereza.jpg",
-      "specialization": "zdravotní sestra"
+      "specialization": "zdravotní sestra",
+      "bio": "zdravotni sestra"
     }
   ]
 }
