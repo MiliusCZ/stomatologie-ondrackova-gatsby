@@ -13,7 +13,7 @@ showInMenu: true
 
 ## Online rezervace
 
-<script type="text/javascript" src="https://www.xdent.cz/js/booking.js"></script><script type="text/javascript">CreateBookNowButton('ondrackova','Medium');</script>
+<script type="text/javascript">CreateBookNowButton('ondrackova','Medium');</script>
 
 ## Jak se k nám dostanete
 
