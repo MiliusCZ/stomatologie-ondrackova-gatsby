@@ -39,10 +39,9 @@ Na náměstí je možné zaparkovat
 
 ## Ordinační hodiny - dentální hygiena
 
-| Den     | Dopoledne    | Odpoledne     |
-| ------- | ------------ | ------------- |
-| Čtvrtek | 7:30 – 11:30 | 12:30 - 14:30 |
-| Pátek   | 7:30 – 13:00 |               |
+| Den     | Čas          |
+| ------- | ------------ |
+| Středa  | 9:00 - 16:00 |
 
 Mimo naše ordinační hodiny Vám první pomoc zajistí:
 
