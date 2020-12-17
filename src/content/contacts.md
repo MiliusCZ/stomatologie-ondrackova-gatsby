@@ -13,7 +13,7 @@ showInMenu: true
 
 ## Online rezervace
 
-<script type="text/javascript" src="https://www.xdent.cz/js/booking.js" />
+<script type="text/javascript" src="https://www.xdent.cz/js/booking.js"></script>
 <script type="text/javascript">CreateBookNowButton('ondrackova','Medium');</script>
 
 ## Jak se k nám dostanete
@@ -39,9 +39,9 @@ Na náměstí je možné zaparkovat
 
 ## Ordinační hodiny - dentální hygiena
 
-| Den     | Čas          |               |
-| ------- | ------------ | ------------- |
-| Středa  | 9:00 - 16:00 |               |
+| Den    | Čas          |     |
+| ------ | ------------ | --- |
+| Středa | 9:00 - 16:00 |     |
 
 Mimo naše ordinační hodiny Vám první pomoc zajistí:
 
